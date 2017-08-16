@@ -67,7 +67,7 @@ function menuRenderer ({
 						optionIndex={i}
 						ref={ref => { onOptionRef(ref, isFocused); }}
 					>
-						{renderLabel(option, i)}
+						{renderLabel(option, isSelected, i)}
 					</Option>
 				);
 			}

@@ -1208,7 +1208,7 @@ function menuRenderer(_ref) {
 									onOptionRef(ref, isFocused);
 								}
 							},
-							renderLabel(option, i)
+							renderLabel(option, isSelected, i)
 						)
 					};
 				})();
