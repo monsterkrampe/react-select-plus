@@ -1095,6 +1095,7 @@ const Select = createClass({
         optionGroupComponent: this.props.optionGroupComponent,
 				optionRenderer: this.props.optionRenderer || this.getOptionLabel,
 				options,
+				removeValue: this.removeValue,
         selectValue: this.selectValue,
 				valueArray,
 				valueKey: this.props.valueKey,

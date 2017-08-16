@@ -2119,6 +2119,7 @@ var Select = (0, _createReactClass2['default'])({
 				optionGroupComponent: this.props.optionGroupComponent,
 				optionRenderer: this.props.optionRenderer || this.getOptionLabel,
 				options: options,
+				removeValue: this.removeValue,
 				selectValue: this.selectValue,
 				valueArray: valueArray,
 				valueKey: this.props.valueKey
